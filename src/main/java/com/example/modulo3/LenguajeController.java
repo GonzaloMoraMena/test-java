@@ -1,12 +1,14 @@
 package com.example.modulo3;
 
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.stream.StreamSupport;
 
 @RequestMapping()
+@Controller()
 @AllArgsConstructor
 public class LenguajeController {
     private LenguajeRepository repository;
