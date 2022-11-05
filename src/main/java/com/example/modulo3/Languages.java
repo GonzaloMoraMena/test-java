@@ -11,7 +11,7 @@ import javax.persistence.Id;
 @Entity
 @Table(appliesTo = "lenguajes")
 @Data()
-public class Lenguajes {
+public class Languages {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
